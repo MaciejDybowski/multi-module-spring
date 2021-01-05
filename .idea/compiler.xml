@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-discovery" />
+        <module name="microservice2" />
+        <module name="microservice1" />
+        <module name="configuration-server" />
+        <module name="spring-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configuration-environment" target="11" />
+      <module name="configuration-server" target="11" />
+      <module name="eureka-discovery" target="11" />
+      <module name="microservice1" target="11" />
+      <module name="microservice2" target="11" />
+      <module name="spring-gateway" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="configuration-server" options="-parameters" />
+      <module name="eureka-discovery" options="-parameters" />
+      <module name="microservice1" options="-parameters" />
+      <module name="microservice2" options="-parameters" />
+      <module name="spring-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

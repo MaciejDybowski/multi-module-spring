@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/configuration-environment.iml" filepath="$PROJECT_DIR$/.idea/configuration-environment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configuration-server/configuration-server.iml" filepath="$PROJECT_DIR$/configuration-server/configuration-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-discovery/eureka-discovery.iml" filepath="$PROJECT_DIR$/eureka-discovery/eureka-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice1/microservice1.iml" filepath="$PROJECT_DIR$/microservice1/microservice1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice2/microservice2.iml" filepath="$PROJECT_DIR$/microservice2/microservice2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-gateway/spring-gateway.iml" filepath="$PROJECT_DIR$/spring-gateway/spring-gateway.iml" />
+    </modules>
+  </component>
+</project>
